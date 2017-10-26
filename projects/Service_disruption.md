@@ -1,10 +1,8 @@
 ---
-layout: post
-title: "Service Disruption"
-date: 2017-10-12
+layout: project
+title: Service Disruption
 excerpt: "Project that works with several datasets to create an algorithm to predict the probability and severity of cell tower outages"
-tags: [Data Science, Machine Learning, Classification]
-comments: true
+comments: True
 ---
 
 # Cell Tower Outage Prediction Algorithm
