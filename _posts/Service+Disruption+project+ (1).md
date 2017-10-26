@@ -1,13 +1,9 @@
 ---
 layout: post
-title:  "Service Disruption"
-date:   2016-04-06
-excerpt: "Project that works with several datasets to create an algorithm to predict the probability and severity of cell tower outages"
-project: true
-tag:
-- Data Science
-- Machine Learning
-- Classification
+title: "Service Disruption html format"
+date: 2013-05-22
+excerpt: "html"
+tags: [sample post, images, test]
 comments: true
 ---
 
