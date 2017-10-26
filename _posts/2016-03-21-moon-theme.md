@@ -5,17 +5,12 @@ date:   2016-04-06
 excerpt: "Project that works with several datasets to create an algorithm to predict the probability and severity of cell tower outages"
 project: true
 tag:
-- jekyll
-- moon
-- blog
-- about
-- theme
+- Data Science
+- Machine Learning
+- Classification
 comments: true
 ---
 
-![Simplified Homepage](https://montgomery-data-science.github.io/)    
-    
-<center><b>Moon</b> is a minimal, one column jekyll theme.</center>
 
 
 # Cell Tower Outage Prediction Algorithm
