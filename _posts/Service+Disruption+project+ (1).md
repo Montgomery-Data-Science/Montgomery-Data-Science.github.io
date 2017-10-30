@@ -4,7 +4,7 @@ title: "Service Disruption html format"
 date: 2013-05-22
 excerpt: "html"
 tags: [sample post, images, test]
-comments: true
+comments: false
 ---
 
 <!DOCTYPE html>
