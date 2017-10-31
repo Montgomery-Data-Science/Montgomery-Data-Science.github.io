@@ -1,6 +1,6 @@
 ---
-layout: Projects
-title: "A Post with Images"
+layout: posts
+title: Projects
 date: 2013-05-22
 excerpt: "Examples and code for displaying images in posts."
 tags: [sample post, images, test]

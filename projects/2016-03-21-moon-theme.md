@@ -1,6 +1,6 @@
 ---
-layout: Projects
-title: All Projects
+layout: posts
+title: Projects
 excerpt: "A List of Projects"
 comments: true
 ---
