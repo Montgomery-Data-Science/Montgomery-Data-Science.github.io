@@ -7,7 +7,7 @@ comments: false
 ---
 
 <figure>
-	<a href="https://imgur.com/c9M01uB"><img src="https://i.imgur.com/c9M01uB.jpg?1" title="source: imgur.com" /></a>
+	<a href="https://imgur.com/c9M01uB"><img src="https://i.imgur.com/c9M01uB.jpg?3" title="source: imgur.com" /></a>
 </figure>
 
 <center>Hello my name is Stephen Montgomery and I am the creator of simplified. I am a data enthusiast with a passion for data exploration. On this website you can see some of the data science and machine learning projects I have created. The data I used in the projects comes from real sources such as Kaggle. Currently I am looking for a job in the data science or tech field. If you like what I have created and want to chat my contact information is below. </center>
