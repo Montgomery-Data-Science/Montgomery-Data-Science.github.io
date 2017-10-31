@@ -7,7 +7,7 @@ comments: false
 ---
 
 <figure>
-	<a href="https://www.linkedin.com/in/stephenamontgomery/"><img src="https://www.facebook.com/photo.php?fbid=1929530330407336&set=a.218086668218386.71396.100000511638221&type=3&theater"></a>
+	<a href="https://www.linkedin.com/in/stephenamontgomery/"><img src="professional.JPG"></a>
 	<figcaption><a href="https://www.linkedin.com/in/stephenamontgomery/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
 </figure>
 
