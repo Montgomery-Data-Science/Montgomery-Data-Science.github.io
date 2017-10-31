@@ -7,7 +7,7 @@ comments: false
 ---
 
 <figure>
-	<a href="https://www.linkedin.com/in/stephenamontgomery/"><img src="https://www.flickr.com/photos/153167730@N02/38039305302/in/dateposted-public/"></a>
+	<a href="https://imgur.com/c9M01uB"><img src="https://i.imgur.com/c9M01uB.jpg?1"</a>">
 	<figcaption><a href="https://www.linkedin.com/in/stephenamontgomery/"
 </figure>
 
