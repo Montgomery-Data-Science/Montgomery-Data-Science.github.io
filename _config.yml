@@ -1,7 +1,7 @@
 # Site
 title:              Simplified
 bio:                'Data Science | Machine Learning | Business Analytics'
-description:        "Simplified is a portfolio website where you can find data science projects that explore and create predictive models for various business casses."
+description:        "Simplified is a portfolio website where you can find data science projects that explore and create predictive models for various business cases."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
