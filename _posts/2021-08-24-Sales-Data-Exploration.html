@@ -1,4 +1,3 @@
-
 ---
 layout: compress
 project: true
@@ -9137,15 +9136,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -12527,7 +12526,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -13041,14 +13040,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -13451,7 +13450,7 @@ per year per shop_id</p>
 <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">train</span><span class="p">[</span><span class="s1">&#39;date_block_num&#39;</span><span class="p">]:</span>
     <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">Year_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
         <span class="k">if</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">value</span><span class="p">:</span>
-            <span class="n">Year_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>    
+            <span class="n">Year_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14851,8 +14850,8 @@ Name: shop_id, dtype: int64</pre>
         <span class="n">growth_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">growth</span><span class="p">)</span>
         <span class="n">counter</span><span class="o">+=</span><span class="mi">1</span>
     <span class="k">return</span><span class="p">(</span><span class="n">growth_list</span><span class="p">)</span>
-        
-        
+
+
 </pre></div>
 
     </div>
@@ -15855,15 +15854,15 @@ Name: shop_id, dtype: int64</pre>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>            date  date_block_num  shop_id  item_id  item_price  item_cnt_day  \
-21667 2013-01-01               0       28    18631       149.0           1.0   
+21667 2013-01-01               0       28    18631       149.0           1.0
 
-       gross_sales   Years  
-21667        149.0  Year 1  
+       gross_sales   Years
+21667        149.0  Year 1
               date  date_block_num  shop_id  item_id  item_price  \
-2350821 2015-12-01              24       22      482      3300.0   
+2350821 2015-12-01              24       22      482      3300.0
 
-         item_cnt_day  gross_sales   Years  
-2350821           2.0       6600.0  Year 2  
+         item_cnt_day  gross_sales   Years
+2350821           2.0       6600.0  Year 2
 </pre>
 </div>
 </div>
@@ -16376,7 +16375,7 @@ Name: shop_id, dtype: int64</pre>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span>
 </pre></div>
 
     </div>
@@ -17637,13 +17636,13 @@ Name: shop_id, dtype: int64</pre>
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
 RangeIndex: 1609124 entries, 0 to 1609123
 Data columns (total 5 columns):
- #   Column          Non-Null Count    Dtype  
----  ------          --------------    -----  
- 0   date_block_num  1609124 non-null  int64  
- 1   shop_id         1609124 non-null  int64  
- 2   item_id         1609124 non-null  int64  
+ #   Column          Non-Null Count    Dtype
+---  ------          --------------    -----
+ 0   date_block_num  1609124 non-null  int64
+ 1   shop_id         1609124 non-null  int64
+ 2   item_id         1609124 non-null  int64
  3   gross_sales     1609124 non-null  float64
- 4   month           1609124 non-null  int64  
+ 4   month           1609124 non-null  int64
 dtypes: float64(1), int64(4)
 memory usage: 61.4 MB
 </pre>
@@ -17680,14 +17679,14 @@ memory usage: 61.4 MB
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
 RangeIndex: 1609124 entries, 0 to 1609123
 Data columns (total 6 columns):
- #   Column          Non-Null Count    Dtype  
----  ------          --------------    -----  
- 0   date_block_num  1609124 non-null  int64  
- 1   shop_id         1609124 non-null  int64  
- 2   item_id         1609124 non-null  int64  
+ #   Column          Non-Null Count    Dtype
+---  ------          --------------    -----
+ 0   date_block_num  1609124 non-null  int64
+ 1   shop_id         1609124 non-null  int64
+ 2   item_id         1609124 non-null  int64
  3   gross_sales     1609124 non-null  float64
- 4   month           1609124 non-null  int64  
- 5   month           1609124 non-null  int64  
+ 4   month           1609124 non-null  int64
+ 5   month           1609124 non-null  int64
 dtypes: float64(1), int64(5)
 memory usage: 73.7 MB
 </pre>
@@ -17777,7 +17776,7 @@ memory usage: 73.7 MB
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
-<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=.</span><span class="mi">20</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> 
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=.</span><span class="mi">20</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">ridge</span><span class="o">=</span><span class="n">priceridge</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
 <span class="n">lasso</span><span class="o">=</span><span class="n">priceLasso</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
 <span class="n">GBR</span><span class="o">=</span><span class="n">priceGBR</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
@@ -17851,16 +17850,16 @@ GBR
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
 RangeIndex: 2935849 entries, 0 to 2935848
 Data columns (total 8 columns):
- #   Column          Dtype         
----  ------          -----         
+ #   Column          Dtype
+---  ------          -----
  0   date            datetime64[ns]
- 1   date_block_num  int64         
- 2   shop_id         int64         
- 3   item_id         int64         
- 4   item_price      float64       
- 5   item_cnt_day    float64       
- 6   month           int64         
- 7   gross_sales     float64       
+ 1   date_block_num  int64
+ 2   shop_id         int64
+ 3   item_id         int64
+ 4   item_price      float64
+ 5   item_cnt_day    float64
+ 6   month           int64
+ 7   gross_sales     float64
 dtypes: datetime64[ns](1), float64(3), int64(4)
 memory usage: 179.2 MB
 </pre>
@@ -17987,7 +17986,7 @@ memory usage: 179.2 MB
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span>
 </pre></div>
 
     </div>
@@ -17999,7 +17998,7 @@ memory usage: 179.2 MB
   </div>
 </body>
 
- 
+
 
 
 </html>
